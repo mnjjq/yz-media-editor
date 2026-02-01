@@ -1,0 +1,12 @@
+[package]
+name = "media-node"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+media-engine = { path = "../media-engine" }
+# napi = "2.0"
+# napi-derive = "2.0"
+
+[lib]
+crate-type = ["cdylib"]

@@ -1,0 +1,11 @@
+[package]
+name = "media-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# TODO: 添加FFmpeg绑定
+# ffmpeg-next = "6.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]

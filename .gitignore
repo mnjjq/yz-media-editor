@@ -1,0 +1,27 @@
+node_modules
+dist
+build
+.turbo
+*.log
+
+# Electron
+apps/desktop/dist
+apps/desktop/out
+
+# Rust
+target/
+Cargo.lock
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env.local
+.env.*.local
